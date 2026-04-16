@@ -24,30 +24,30 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col ">
 
-        {/* <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> */}
+       
         
         <nav className=" w-ull h-16 bg-foreground text-background grid grid-cols-3 items-center px-8 ">
-          <div className="justify-self-start">
+          <div className="justify-self-start flex items-center gap-2">
             <Image
             src="/background-removed.png"
             alt="Next.js Logo"
-            width={120}
-            height={120}
+            width={110}
+            height={110}
             className="object-contain"
           />
 
           </div>
                     
-          <div className="font-semibold flex gap-15 justify-self-center">
+          <div className="font-semibold flex gap-8 justify-self-center">
 
 
             
-            <Link href={"/"} className=" px-4  py-2 rounded-l-lg text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900">Home</Link>
-            <Link href={"/about"} className=" px-4  py-2 rounded-xl text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900">About</Link>
-            <Link href={"/notes"} className=" px-4  py-2 rounded-xl text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900">Notes</Link>
-            <Link href={"/contact"} className=" px-4  py-2 rounded-r-lg text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900">Contact</Link>
+            <Link href={"/"} className=" px-4  py-2 rounded-xl text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-indigo-900">Home</Link>
+            <Link href={"/about"} className=" px-4  py-2 rounded-xl text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-indigo-900">About</Link>
+            <Link href={"/notes"} className=" px-4  py-2 rounded-xl text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-indigo-900">Notes</Link>
+            <Link href={"/contact"} className=" px-4  py-2 rounded-xl text-amber-50  bg-gray-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-indigo-900">Contact</Link>
           </div>
         </nav>
          

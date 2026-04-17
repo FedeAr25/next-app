@@ -11,7 +11,7 @@ import Image from 'next/image'
 
         <div className="flex flex-col items-center gap-4 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            notas
+            NOTAS
           </h1>
            <Link
             href="/notes/create"

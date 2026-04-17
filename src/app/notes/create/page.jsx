@@ -12,7 +12,7 @@ function page() {
            
             <input type='text' placeholder='Titulo' className='p-2 rounded-md my-4 bg-zinc-700/30 text-white placeholder:text-gray-400'/>
             <textarea placeholder='Contenido' className='p-2 rounded-md my-4 bg-zinc-700/40 text-white placeholder:text-gray-400' rows={10}/>
-            <button type='submit' className=' backdrop-blur-lg shadow-lg p-2 bg-blue-500/40 p-2 text-white rounded-md bg'>
+            <button type='submit' className=' backdrop-blur-lg shadow-lg p-2 bg-blue-500/40  text-white rounded-md bg'>
                 save
             </button>
         </form>

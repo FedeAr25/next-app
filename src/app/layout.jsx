@@ -54,6 +54,42 @@ export default function RootLayout({ children }) {
 
         {children}
 
+        <footer className="pt-5 border-t border-white/10 flex  justify-between gap-10">
+            <div className=" p-8 flex gap-8 text-gray-400 text-sm font-medium">
+              <div className="flex flex-col">
+                <span className="text-white text-xl font-bold">100%</span>
+                <span>Compromiso</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-white text-xl font-bold">Next.js</span>
+                <span>Tecnología</span>
+              </div>
+            </div>
+           <div className="flex flex-col py-7 ">
+            <h1>No dude en usar nuesta Pagina
+              
+            </h1>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-200 to-red-600">Todos los derechos reservados a aballo.inc</span>  
+            </div>
+
+          <div>
+            <div className="bg-white rounded-full  py-6 px-6">
+              <Image
+            src="/nextjs-svgrepo-com.svg"
+            alt="Next.js Logo"
+            width={60}
+            height={60}
+            className="object-contain"
+          />
+
+            </div>
+            
+          </div>         
+            
+
+           
+          </footer>
+
       </body>
     </html>
   );
